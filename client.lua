@@ -971,7 +971,7 @@ end
 ---@param point CPoint
 local function onEnterDrop(point)
 	if not point.instance or point.instance == currentInstance and not point.entity then
-		local model = point.model or `prop_med_bag_01b`
+		local model = point.model or `hei_prop_hei_paper_bag`
 
 		lib.requestModel(model)
 
